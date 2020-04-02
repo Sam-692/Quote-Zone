@@ -1,0 +1,19 @@
+.add-quote{
+    font-size: 40px;
+    font-family: 'Spicy Rice', cursive;
+}
+.label{
+    font-size: 30px;
+}
+form{
+    border-radius: 45px;
+    margin: 30px;
+    border: 2px solid black;
+    background: transparent;
+    box-shadow: 10px 10px 5px black;
+    background-color: rgba(0,0,0,0.374);
+    opacity: 90%;
+    font-family: 'Spicy Rice', cursive;
+    height: 700px;
+    width: 600px;
+}

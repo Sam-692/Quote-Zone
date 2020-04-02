@@ -1,0 +1,32 @@
+<div id="quote" class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+         <div id="col-md-6">
+            <h1 class="text-center" id="best">Best Quotes</h1>
+            <div *ngFor="let quote of quotes; let i = index">
+              <ul>
+                <li>
+                  <h5 id="h5">{{ quote.quote }}</h5>
+                  <h6> <span class="badge badge-success"> Posted</span> {{ quote.postDate|timeAgo}} </h6>
+                </li>
+                    <button class=" btn btn-info" (click)="toggleDetails(i)"> about</button>
+                      <app-quote-detail
+                       *ngIf="quote.showDescription"
+                        [quote]="quote"
+                        (isComplete)="completeQuote($event, i)">
+                    </app-quote-detail>
+              </ul>
+            </div>
+           </div>
+       </div>
+    </div>
+  </div>
+   <div class="col-md-6" id="md-6">
+     <div class="card-body" id="quote-form">
+       <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+  </div>
+   </div>
+</div>

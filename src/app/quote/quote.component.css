@@ -1,0 +1,45 @@
+#quote{
+    text-align: center;
+    color:whitesmoke;
+}
+.card{
+    float: left;
+    border-radius: 70px;
+    margin: 30px;
+    border: 2px solid black;
+    background: transparent;
+    box-shadow: 10px 10px 5px black;
+    background-color: rgba(0,0,0,0.374);
+    opacity: 90%;
+    font-family: 'Spicy Rice', cursive;
+    /* width: 800px; */
+}
+#quote-form{
+    border-radius: 50px;
+    height: 800px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#best{
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 65px;
+}
+.btn-info{
+    border-radius: 2px;
+    font-size: 15px;
+}
+.col-md-6{
+    margin-left: 90px;
+    font-family: 'Courgette', cursive;
+}
+#h5{
+    font-size: 40px;
+    border: 3px solid black;
+    border-radius: 0px;
+    box-shadow: 10px 10px 5px white;
+    margin-right: 40px;
+}
