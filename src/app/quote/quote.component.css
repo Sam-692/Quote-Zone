@@ -2,8 +2,7 @@
     text-align: center;
     color:whitesmoke;
 }
-.card{
-    float: left;
+.card{ 
     border-radius: 70px;
     margin: 30px;
     border: 2px solid black;
@@ -12,15 +11,12 @@
     background-color: rgba(0,0,0,0.374);
     opacity: 90%;
     font-family: 'Spicy Rice', cursive;
-    /* width: 800px; */
 }
 #quote-form{
     border-radius: 50px;
     height: 800px;
     width: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    clear: right;
 }
 #best{
     color:black;
