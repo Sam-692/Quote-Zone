@@ -4,5 +4,5 @@ body{
     background-size: cover;
     background-position: center;
     backface-visibility:visible ;
-
+    overflow-x: hidden;
 }
