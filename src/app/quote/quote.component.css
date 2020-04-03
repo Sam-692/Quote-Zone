@@ -11,6 +11,7 @@
     background-color: rgba(0,0,0,0.374);
     opacity: 90%;
     font-family: 'Spicy Rice', cursive;
+    float: left;
 }
 #quote-form{
     border-radius: 50px;
