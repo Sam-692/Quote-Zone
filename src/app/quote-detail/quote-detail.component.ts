@@ -18,7 +18,6 @@ export class QuoteDetailComponent implements OnInit {
 quoteComplete(complete:boolean){
   this.isComplete.emit(complete);
 }
-
 onClick(){
   
   this.up++;
