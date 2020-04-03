@@ -1,8 +1,0 @@
-<h5><span class="badge badge-success">Posted by : </span> {{quote.description}} <span class="badge badge-success">On : </span> {{quote.postDate |date:'short'}} </h5>
-
-<button class="btn btn-primary m-2" (click)="onClick($event)"><i class="fa fa-thumbs-up "></i> Like{{up}}</button> <br> <br>
-<button (click) = "voteDown()" class="btn btn-danger m-2"><i class="fagh fa-thumbs-down"></i> Unlike{{down}}</button>
-<button (click)='quoteDelete(true)' id="delete" class="btn btn-danger"><i class="fa fa-trash"></i></button>
-<div>
-    <p>Posted:{{quote.isComplete|timeAgo}}days ago</p>
-</div>
