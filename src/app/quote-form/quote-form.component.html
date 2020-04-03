@@ -3,21 +3,21 @@
   <form #quoteForm='ngForm'(ngSubmit)='submitQuote()' #quoteForm='ngForm' class="col-md-12 text-center m-4" action="">
     <h3 class="add-quote">Add Your Quote</h3> <br>
     <div class="form-group">
-      <label for="name" class="label">Author</label><br> 
-      <input type="text" required class="form-control" id="description" placeholder="Enter Author name "[(ngModel)]="newQuote.quote" name="quote" #description='ngModel'>
+      <label class="form" for="name" class="label">Author</label><br> <br>
+      <input type="text" required class="form-control" id="description" placeholder="Enter Author name "[(ngModel)]="newQuote.description" name="quote" #description='ngModel'>
     </div><br> 
     <div class="form-group">
-      <label for="name" class="label">Quote Tittle</label> <br>
-      <input type="text" required class="form-control" id="description" placeholder="Enter Tittle" [(ngModel)]="newQuote.description" name="description" #description='ngModel'>
+      <label for="tittle" class="label">Quote Tittle</label> <br> <br>
+      <input type="text" required class="form-control" id="description" placeholder="Enter Tittle" [(ngModel)]="newQuote.tittle" name="description" #description='ngModel'>
     </div>
     <div class="form-group">
-        <label for="quote" class="label">Quote</label> <br> 
-        <input type="subject" required class="form-control" id="quote" placeholder="Enter Your Quote" [(ngModel)]="newQuote.description" name="description" #quote='ngModel'>
+        <label for="quote" class="label">Quote</label> <br> <br>
+        <input type="subject" required class="form-control" id="quote" placeholder="Enter Your Quote" [(ngModel)]="newQuote.quote" name="description" #quote='ngModel'>
       </div>
       <div class="form-group">
-        <label for="name" class="label">Posted by</label> <br>
-        <input type="text" required class="form-control" id="description" placeholder="Enter Your Name" [(ngModel)]="newQuote.description" name="description" #description='ngModel'>
-      </div>
+        <label for="date" class="label">Posted by</label> <br><br>
+        <input type="text" required class="form-control" id="description" placeholder="Enter Your Name" [(ngModel)]="newQuote.name" name="description" #description='ngModel'>
+      </div><br><br><br>
       <button class="btn btn-primary">Post now</button>
   </form>
 </div>

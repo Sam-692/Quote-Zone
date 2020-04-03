@@ -5,12 +5,12 @@
 .card{ 
     border-radius: 70px;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid wheat;
     background: transparent;
     box-shadow: 10px 10px 5px black;
     background-color: rgba(0,0,0,0.374);
     opacity: 90%;
-    font-family: 'Spicy Rice', cursive;
+    font-family: 'Courgette', cursive;
 }
 #quote-form{
     border-radius: 50px;
@@ -18,10 +18,11 @@
     width: 300px;
 }
 #best{
-    color:black;
+    color:white;
     text-decoration: underline;
     text-align: center;
     font-size: 65px;
+   
 }
 .btn-info{
     border-radius: 2px;
@@ -29,7 +30,6 @@
 }
 .col-md-6{
     margin-left: 90px;
-    font-family: 'Courgette', cursive;
 }
 #h5{
     font-size: 40px;
